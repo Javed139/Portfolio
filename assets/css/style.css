@@ -11,18 +11,6 @@ body {
 
 }
 
-body::before {
-  content: "";
-  background: rgba(38, 38, 39, 0.671);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  height: 150vh;
-}
-
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
