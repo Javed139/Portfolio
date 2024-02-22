@@ -20,7 +20,7 @@ body::before {
   left: 0;
   right: 0;
   z-index: 1;
-  height: 120vh;
+  height: 150vh;
 }
 
 @media (min-width: 1024px) {
